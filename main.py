@@ -9,6 +9,6 @@ def GetROOT():
     return {"API": "Working"}
 
 
-@app.post("AddUser")
+@app.post("/AddUser")
 def AddUser(User: User_Model):
     return {"User Received  ": f"{User.Name}"}
