@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 def GetROOT():
-    return {"API": "Working"}
+    return {"Seen": "Working"}
 
 
 @app.post("/AddUser")
